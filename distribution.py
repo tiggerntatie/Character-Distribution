@@ -45,4 +45,5 @@ for i in (alphabet):
     if ((str(text)).count((i)))>0:
         #print (((str(text)).count((i))), (i))
         number=((str(text)).count((i)))
-        print ((i)*(number))
+        biggestnumber= max(number)
+        print ((i)*(biggestnumber))
