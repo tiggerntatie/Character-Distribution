@@ -43,6 +43,6 @@ strtext= (str(text))
 alphabet= ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 for i in (alphabet):
     if ((str(text)).count((i)))>0:
-        print (((str(text)).count((i))), (i))
+        #print (((str(text)).count((i))), (i))
         number=((str(text)).count((i)))
         print ((i)*(number))
