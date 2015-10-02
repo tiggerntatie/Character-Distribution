@@ -48,7 +48,9 @@ for i in (alphabet):
         number=((str(text)).count((i)))
         intnumber= int((str(text)).count((i)))
         #biggestnumber= max(x)
-        print ((i)*(number))
+        for number:
+            
+        print (list((i)*(number)))
         
         
         
