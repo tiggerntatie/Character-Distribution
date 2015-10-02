@@ -47,3 +47,18 @@ for i in (alphabet):
         number=((str(text)).count((i)))
         biggestnumber= max(number)
         print ((i)*(biggestnumber))
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
