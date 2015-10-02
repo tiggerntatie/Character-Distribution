@@ -48,8 +48,6 @@ for i in (alphabet):
         number=((str(text)).count((i)))
         intnumber= int((str(text)).count((i)))
         #biggestnumber= max(x)
-        for number:
-            
         print (list((i)*(number)))
         
         
