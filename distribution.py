@@ -36,3 +36,13 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
+text= input("Please enter a string of text (the bigger the better): ")
+print ('The distribution of characters in "'  + (str(text)) + '" is: ')
+
+strtext= (str(text))
+alphabet= ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+for i in (alphabet):
+    if ((str(text)).count((i)))>0:
+        print (((str(text)).count((i))), (i))
+        number=((str(text)).count((i)))
+        print ((i)*(number))
