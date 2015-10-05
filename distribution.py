@@ -54,7 +54,8 @@ for i in (alphabet):
         for i in (list((i)*(number))):
             numbers1= ((i).count((i)))
             print (numbers1)
-            print (numbers1+numbers
+            #print (def add(numbers1))
+            sumof1s= lambda 
         
         
         
