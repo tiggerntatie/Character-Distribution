@@ -55,7 +55,7 @@ for i in (alphabet):
             numbers1= ((i).count((i)))
             print (numbers1)
             #print (def add(numbers1))
-            sumof1s= lambda 
+            sumof1s= lambda numbers1: (sum(numbers1))
         
         
         
