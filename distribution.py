@@ -51,7 +51,10 @@ for i in (alphabet):
         list1= (list((i)*(number)))
         #list2= (zip(list(list1)))
         print (list1)
-        for i in (alphabet)
+        for i in (list((i)*(number))):
+            numbers1= ((i).count((i)))
+            print (numbers1)
+            print (numbers1*
         
         
         
