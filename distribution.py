@@ -54,7 +54,7 @@ for i in (alphabet):
         for i in (list((i)*(number))):
             numbers1= ((i).count((i)))
             print (numbers1)
-            print (numbers1*
+            print (numbers1+numbers
         
         
         
