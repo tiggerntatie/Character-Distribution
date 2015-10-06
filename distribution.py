@@ -53,7 +53,7 @@ for i in (alphabet):
         print (list1)
         for i in (list((i)*(number))):
             numbers1= len(i)
-            print (numbers1)
+            #print (numbers1)
         
         
         
