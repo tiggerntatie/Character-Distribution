@@ -50,10 +50,9 @@ for i in (alphabet):
         #biggestnumber= max(x)
         list1= (list((i)*(number)))
         #list2= (zip(list(list1)))
-        print (list1)
-        for i in (list((i)*(number))):
-            numbers1= len(i)
-            #print (numbers1)
+        letternumberset= ((list1), (number))
+        print (letternumberset)
+        
         
         
         
