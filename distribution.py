@@ -53,7 +53,6 @@ for i in (alphabet):
         letternumberset= ((list1), (number))
         print (letternumberset)
         for i in list1:
-            numberasalist= (list(number))
             listofnumbers= (list(number))
             print (listofnumbers)
         
