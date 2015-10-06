@@ -52,7 +52,10 @@ for i in (alphabet):
         #list2= (zip(list(list1)))
         letternumberset= ((list1), (number))
         print (letternumberset)
-        print (list(number))
+        strnumber= (str(number))
+        for i in (strnumber):
+            listnumber= (list(strnumber))
+            print (listnumber)
         
         
         
