@@ -45,7 +45,7 @@ for i in (alphabet):
     if ((str(text)).count((i)))>0:
         #x= i in (alphabet)
         #print (((str(text)).count((i))), (i))
-        number=((str(text)).count((i)))
+        number=(int((str(text)).count((i))))
         intnumber= int((str(text)).count((i)))
         #biggestnumber= max(x)
         list1= (list((i)*(number)))
