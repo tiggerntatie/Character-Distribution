@@ -53,7 +53,7 @@ for i in (alphabet):
         letternumberset= ((list1), (number))
         print (letternumberset)
         strnumber= (str(number))
-        print (list(strnumber))
+        print (strnumber)
         #for i in (strnumber):
             #listnumber= (list(strnumber))
             #print (zip(listnumber))
