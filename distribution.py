@@ -55,7 +55,7 @@ for i in (alphabet):
         strnumber= (str(number))
         for i in (strnumber):
             listnumber= (list(strnumber))
-            print (listnumber)
+            print (zip(listnumber))
         
         
         
