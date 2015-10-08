@@ -53,9 +53,10 @@ for i in (alphabet):
         letternumberset= ((list1), (number))
         print (letternumberset)
         strnumber= (str(number))
-        listnumber= (list(strnumber))
-        mylist.append(listnumber)
-        print (mylist)
+        #listnumber= (list(strnumber))
+        mylist.append(strnumber)
+        print (sorted(mylist, reverse=True))
+        mylist[0]=(i)
         #for i in (strnumber):
             #listnumber= (list(strnumber))
             #print (zip(listnumber))
