@@ -39,7 +39,6 @@ Notice about this example:
 text= input("Please enter a string of text (the bigger the better): ")
 print ('The distribution of characters in "'  + (str(text)) + '" is: ')
 mylist= []
-mylist.append(listnumber)
 strtext= (str(text))
 alphabet= ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 for i in (alphabet):
@@ -55,7 +54,8 @@ for i in (alphabet):
         print (letternumberset)
         strnumber= (str(number))
         listnumber= (list(strnumber))
-        print (listnumber)
+        mylist.append(listnumber)
+        print (mylist)
         #for i in (strnumber):
             #listnumber= (list(strnumber))
             #print (zip(listnumber))
