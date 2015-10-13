@@ -43,23 +43,15 @@ strtext= (str(text))
 alphabet= ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 for i in (alphabet):
     if ((str(text)).count((i)))>0:
-        #x= i in (alphabet)
-        #print (((str(text)).count((i))), (i))
         number=(int((str(text)).count((i))))
         intnumber= int((str(text)).count((i)))
-        #biggestnumber= max(x)
-        list1= (list((i)*(number)))
+        #list1= (list((i)*(number)))
         #list2= (zip(list(list1)))
-        letternumberset= ((list1), (number))
+        letternumberset= ((i), (number))
         print (letternumberset)
-        strnumber= (str(number))
-        #listnumber= (list(strnumber))
-        mylist.append(strnumber)
-        print (sorted(mylist, reverse=True))
-        #mylist[0]=(i)
-        #for i in (strnumber):
-            #listnumber= (list(strnumber))
-            #print (zip(listnumber))
+        strallletternumbersets= (zip(str(letternumberset)))
+        mylist.append(strallletternumbersets)
+        #print (sorted(mylist, reverse=True))
         
         
         
