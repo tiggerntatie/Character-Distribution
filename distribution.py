@@ -50,9 +50,17 @@ for i in (alphabet):
         #list2= (zip(list(list1)))
         letternumberset= ((i), (number))
         print (letternumberset)
-        strallletternumbersets= (zip(str(letternumberset)))
+        strallletternumbersets= (zip(list(letternumberset)))
         mylist.append(strallletternumbersets)
         #print (sorted(mylist, reverse=True))
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
