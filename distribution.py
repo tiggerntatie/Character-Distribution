@@ -52,7 +52,8 @@ for i in (alphabet):
         print (letternumberset)
         strallletternumbersets= (zip(list(letternumberset)))
         mylist.append(strallletternumbersets)
-        #print (sorted(mylist, reverse=True))
+        #for i in (letternumberset):
+            #print (sorted(letternumberset, reverse=True))
         
         
         
