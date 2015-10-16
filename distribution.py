@@ -42,18 +42,18 @@ print ('The distribution of characters in "'  + (str(text)) + '" is: ')
 mylist= []
 strtext= (str(text))
 alphabet= ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-for i in (alphabet):
+numbers= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+for x in range (0,26):
+    i=alphabet[x]
     if ((str(text)).count((i)))>0:
         number=(int((str(text)).count((i))))
         intnumber= int((str(text)).count((i)))
         #list1= (list((i)*(number)))
         #list2= (zip(list(list1)))
         letternumberset= ((i), (number))
-        print (letternumberset)
-        strallletternumbersets= (zip(list(letternumberset)))
-        mylist.append(strallletternumbersets)
-        #for i in (letternumberset):
-            #print (sorted(letternumberset, reverse=True))
+        numbers[x]= letternumberset
+print (sorted(numbers, reverse=True))
+
         
         
         
