@@ -48,8 +48,6 @@ for x in range (0,26):
     if ((str(text)).count((i)))>0:
         number=(int((str(text)).count((i))))
         intnumber= int((str(text)).count((i)))
-        #list1= (list((i)*(number)))
-        #list2= (zip(list(list1)))
         letternumberset= ((i), (number))
         numbers[x]= letternumberset
 print (sorted(numbers, reverse=True))
