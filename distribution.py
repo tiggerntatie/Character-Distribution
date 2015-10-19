@@ -38,19 +38,25 @@ Notice about this example:
 """
 text= input("Please enter a string of text (the bigger the better): ")
 text=text.lower()
+strtext= (str(text))
 print ('The distribution of characters in "'  + (str(text)) + '" is: ')
 mylist= []
-strtext= (str(text))
 alphabet= ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-numbers= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-for i in range (0,26):
-    i=strtext[x]
-    if ((str(text)).count((i)))>0:
-        number=(int((str(text)).count((i))))
-        intnumber= int((str(text)).count((i)))
-        letternumberset= ((number), (i))
+letters= [' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ']
+numbers= []
+for x in (strtext):
+    letters[i]=(x)
+    print (letters)
+   
+   
+   
+   
+    #if ((str(text)).count((i)))>0:
+        #number=(int((str(text)).count((i))))
+        #intnumber= int((str(text)).count((i)))
+        #letternumberset= ((number), (i))
         #numbers[x]= letternumberset
-    #print ((letter)*(number))
+#print ((i)*(number))
 
         
         
