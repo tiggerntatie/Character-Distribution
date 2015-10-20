@@ -37,16 +37,22 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 text= input("Please enter a string of text (the bigger the better): ")
-text=text.lower()
+text1=text.lower()
 strtext= (str(text))
-print ('The distribution of characters in "'  + (str(text)) + '" is: ')
-mylist= []
-alphabet= ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-letters= [' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ']
-numbers= []
-for x in (strtext):
-    letters[i]=(x)
-    print (letters)
+for i in (strtext):
+    if ((str(text)).count((i)))>0:
+        number=(int((str(text)).count((i))))
+        print (number)
+
+#print ('The distribution of characters in "'  + (str(text)) + '" is: ')
+#mylist= []
+#alphabet= ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+#numbers= ['1','2','3','4','5','6','7','8','9','10','11','12','13',' 14','15','16','17','18','19','20','21','22','23','24','25','26']
+#letters= []
+#i= letters[-1]
+#for x in (strtext):
+    #letters[+1]=(x)
+    #print (letters)
    
    
    
