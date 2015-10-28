@@ -1,7 +1,7 @@
 """
 distribution.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Anoushka Alavilli
+Credit: Sarah, Dina, Jasmine, Mr. Dennison, my dad
 
 Assignment:
 
@@ -39,30 +39,31 @@ Notice about this example:
 text= input("Please enter a string of text (the bigger the better): ")
 text1=text.lower()
 strtext= (str(text))
-for i in (strtext):
-    if ((str(text)).count((i)))>0:
-        number=(int((str(text)).count((i))))
-        print (number)
+print ('''The distribution of characters in "''' + (strtext) + '''" is: ''')
+alphabet= ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+listnum= []
+for i in (alphabet):
+    count= (strtext).count(i)
+    if (count)>0:
+        alphaorder=((i)*(count))
+        alphaorderwithnumbers= ((count), (alphaorder))
+        listnum.append(alphaorderwithnumbers)
+listnum.sort(reverse=True)
+#print (listnum)
+#print ("")
 
-#print ('The distribution of characters in "'  + (str(text)) + '" is: ')
-#mylist= []
-#alphabet= ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-#numbers= ['1','2','3','4','5','6','7','8','9','10','11','12','13',' 14','15','16','17','18','19','20','21','22','23','24','25','26']
-#letters= []
-#i= letters[-1]
-#for x in (strtext):
-    #letters[+1]=(x)
-    #print (letters)
-   
-   
-   
-   
-    #if ((str(text)).count((i)))>0:
-        #number=(int((str(text)).count((i))))
-        #intnumber= int((str(text)).count((i)))
-        #letternumberset= ((number), (i))
-        #numbers[x]= letternumberset
-#print ((i)*(number))
+listnumcount= (len(listnum))
+biggestnum= (listnum[0][0])
+
+for i in range ((listnum[0][0]), 1, -1):
+    emptylist= []
+    for x in (listnum):
+        if i==x[0]:
+            emptylist.append(x)
+    if (len(emptylist))>0: 
+        sortedemptylist= ((emptylist).sort())
+        for x in (sortedemptylist):
+            print (x[1])
 
         
         
