@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Anoushka Alavilli
-Credit: Sarah, Dina, Jasmine, Mr. Dennison, my dad
+Credit: Sarah, Dina, Jasmine, Mr. Dennison, my dad, http://stackoverflow.com/questions/15536287/stripping-commas-and-periods
 
 Assignment:
 
