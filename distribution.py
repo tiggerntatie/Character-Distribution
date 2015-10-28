@@ -36,7 +36,7 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
-text= input("Please enter a string of text (the bigger the better): ")
+text = input("Please enter a string of text (the bigger the better): ")
 text1=text.lower()
 strtext= (str(text))
 strtext = strtext.replace(",", "")
@@ -47,7 +47,6 @@ strtext = strtext.replace("-", "")
 strtext = strtext.replace(";", "")
 strtext = strtext.replace("'", "")
 strtext = strtext.replace('''"''', '''''')
-
 print ('''The distribution of characters in "''' + (strtext) + '''" is: ''')
 alphabet= ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 listnum= []
@@ -60,39 +59,20 @@ for i in (alphabet):
 listnum.sort(reverse=True)
 #print (listnum)
 #print ("")
-
 listnumcount= (len(listnum))
 biggestnum= (listnum[0][0])
 
-for i in range ((listnum[0][0]), 1, -1):
+for i in range ((listnum[0][0]), 0, -1):
     emptylist= []
     for x in (listnum):
         if i==x[0]:
             emptylist.append(x)
+    #print ("emptylist =", emptylist)
     if (len(emptylist))>0: 
         sortedemptylist= ((emptylist).sort())
-        for x in (sortedemptylist):
-            print (x[1])
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        #print ("sortedemptylidt=", sortedemptylist)
+        for v in (sortedemptylist):
+            print (v[1])
         
         
         
